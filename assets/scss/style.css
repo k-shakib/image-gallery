@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  margin: 3rem 0;
+}
+
+.product .discription {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.small_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.small_images img {
+  height: 110px;
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+.small_images img:hover {
+  opacity: 1;
+}
+
+.big_images {
+  height: 610px;
+  width: 420px;
+  overflow: hidden;
+  margin: 0 15px;
+}
+
+.big_images img {
+  height: 100%;
+}
+
+.discription {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: justify;
+  font-family: monospace;
+  color: grey;
+}
+
+.discription div {
+  margin: 1rem;
+}
+
+.discription h2 {
+  text-align: center;
+  color: #3d5e40;
+}
+
+.discription ul {
+  list-style-position: inside;
+}
+
+.discription ul li {
+  margin: 0.5rem;
+}
+
+.discription .rating .rate {
+  background: #008200;
+  color: white;
+  border-radius: 3rem;
+  padding: 0 0.4rem;
+  margin-right: 1rem;
+}
+
+.discription .price {
+  color: #008200;
+}
+
+.discription .price .old_price {
+  color: red;
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+}
+
+.discription .btns .btn {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  border: 1px solid gray;
+  -webkit-box-shadow: 0 0 5px 0 black;
+          box-shadow: 0 0 5px 0 black;
+}
+
+.discription .btns .btn.buy {
+  background: #00dd00;
+}
+/*# sourceMappingURL=style.css.map */
