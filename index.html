@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <!-- custom css is goes here -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="product">
+        <div class="small_images">
+          <img src="./assets/images/burger01.jpg" alt="" onclick="show(this)" />
+          <img src="./assets/images/burger02.jpg" alt="" onclick="show(this)"/>
+          <img src="./assets/images/burger03.jpg" alt="" onclick="show(this)"/>
+          <img src="./assets/images/burger04.jpg" alt="" onclick="show(this)"/>
+          <img src="./assets/images/burger05.jpg" alt="" onclick="show(this)"/>
+        </div>
+        <div class="big_images">
+          <img id="big_image" src="./assets/images/burger01.jpg" alt="" />
+        </div>
+        <div class="discription">
+          <div>
+            <h2>life is too short to miss out on double cheeseburgers</h2>
+          </div>
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+              fuga magnam pariatur voluptates natus sed, voluptate tempore esse.
+              Ex distinctio nemo necessitatibus saepe cum quos doloremque quis
+              ducimus unde minus. lorem
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li>quality for this burger.</li>
+              <li>quality for this burger.</li>
+              <li>quality for this burger.</li>
+              <li>quality for this burger.</li>
+              <li>quality for this burger.</li>
+            </ul>
+          </div>
+          <div>
+            <p class="rating">
+              <span class="rate">4.5*</span>
+              1000 rating and 1500 reviews
+            </p>
+          </div>
+          <div class="price">
+            <h4>
+              Rs.30$ <span class="old_price"> Rs.50$</span>
+              <span class="persentence"> (40% off)</span>
+            </h4>
+          </div>
+          <div class="btns">
+            <button class="btn buy">Buy Now</button>
+            <button class="btn add_cart">On FlipCart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- custom script goes here  -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
